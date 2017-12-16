@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0; /* zera os espaçamentos de todo o projeto, por isso declaramos o * asterisco */
+}
+
+body{
+    
+    background-color: #ecf0f1; /* altera a cor de fundo do corpo do 
+    projeto */ 
+    padding: 12px; /* altera o espaçamento interno do body (corpo) do projeto */
+    font-family: arial; /* altera a fonte do corpo todo do projeto */
+    font-size: 18px; /* altera a fonte do corpo do projeto */
+}
+
+h1, h2{
+    text-align: center; /* alinha o texto */
+}
+
+h2{
+    text-transform: uppercase; /* customiza o texto (nesse caso, letras maiusculas) */
+    font-size: 14px; /* altera o tamanho da fonte no h2 apenas */
+    color: #666; /* altera a cor da fonte no h2 apenas */
+    margin-bottom: 12px; /* espaçamento do h2 em relação aos li's */
+}
+
+li {
+    list-style-type: none; /* ele retira o ponteiro à esquerda */
+    margin-bottom: 12px; /* altera a margem debaixo (bottom) */
+    padding: 12px; /* altera o espaçamento interno da caixa */
+    color: white; /* altera a cor da fonte nos li's apenas */
+    background-color: #9b59b6 ; /* altera a cor de fundo dos li´s apenas */
+}
