@@ -67,4 +67,6 @@ body{
     color: #333333; 
     font-style: light;
     padding: 10px; 
+    margin-bottom: 10px; /*espaço entra as materias para melhor visualização */
+    
 }
