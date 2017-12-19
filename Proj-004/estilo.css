@@ -28,3 +28,9 @@ a{
     font-family: 'Oswald', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.opcoes:hover{ /* hover inseri o efeito de mudanca de cor ao passar o mouse sobre a caixa */
+    
+    background-color: #6e6e6e;
+    
+}
