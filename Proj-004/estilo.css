@@ -1,15 +1,30 @@
-body{
-
-    background-color: #4a4a4a;
-
+ul{
+    
+    padding: 0; /* encostando a esquerda para comecarmos do zero */
 }
 
 li{
     
-    list-style-type: none;
-    height:  150px;
+    list-style-type: none; /* tirar os ponteiros */
+    background-color: #4a4a4a;
+    margin-bottom: 3px; /* espacamento entre a lista */
+    padding: 60px 25px /* este padding orienta a seta um pouco mais a direita, para ficar mais parecido o espaço com o marcador */ 60px 100px /* este ultimo padding orienta o texto um pouco mais para a direita */; /* espacamento interno referente ao texto */
+    background-image: url(marcador.png); /* adicionar imagem de fundo (marcador) */
+    background-repeat: no-repeat; /* nao repetir a imagem diversas vezes */
+    background-position: 28px center /* posicao da imagem */
+    
+}
+
+a{
     color: #fff;
+    display: block;
+    text-decoration: none;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: right center;
     font-size: 20px;
     letter-spacing: 2px;
-    
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
