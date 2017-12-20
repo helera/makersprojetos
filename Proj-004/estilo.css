@@ -1,5 +1,5 @@
 ul{
-    
+    margin: 0;
     padding: 0; /* encostando a esquerda para comecarmos do zero */
 }
 
@@ -12,6 +12,25 @@ li{
     background-image: url(marcador.png); /* adicionar imagem de fundo (marcador) */
     background-repeat: no-repeat; /* nao repetir a imagem diversas vezes */
     background-position: 28px center /* posicao da imagem */
+    
+}
+
+li:hover{
+    
+    background-color: #6e6e6e; /* efeito hover, muda a cor de fundo da area onde passamos o cursor */
+    
+}
+
+li.feito{ /* formatando apenas as linhas com os projetos feitos */
+    
+    background-color: #27ae60;
+    background-image: url(marcador%20marcado.png);
+    
+}
+
+li.feito:hover{ /* adicionando efeito hover diferente para as linhas dos projetos feitos */
+    
+    background-color: #52be7f;
     
 }
 
@@ -29,8 +48,4 @@ a{
     -webkit-font-smoothing: antialiased;
 }
 
-.opcoes:hover{ /* hover inseri o efeito de mudanca de cor ao passar o mouse sobre a caixa */
     
-    background-color: #6e6e6e;
-    
-}
