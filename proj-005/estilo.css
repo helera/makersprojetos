@@ -1,0 +1,52 @@
+body{
+    
+    background-color: #9b9b9b;
+    padding: 40px;
+    
+}
+
+table{
+    
+    background-color: #fff;
+    width: 100%;   
+    font-family: 'roboto', sans-serif;
+    
+}
+
+caption{
+    
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+thead{
+    
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+tbody {
+    
+    text-align: left;
+        
+}
+
+tfoot{
+    
+    text-align: right;
+    
+    
+    
+}
+
+.checkbox{
+    
+    padding: 10px 10px 10px 20px;
+    
+}
