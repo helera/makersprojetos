@@ -17,14 +17,14 @@ table{
 }
 
 
-caption{
+table caption{
     
     background-color: #fff;
     padding: 20px;
     text-align: left;
     font-size: 20px;
     font-weight: 500;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 3px 3px 0px 0px;
     box-shadow: 0px -2px 5px #666;
     
 }
