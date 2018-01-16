@@ -1,0 +1,61 @@
+section{
+    height: 300px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin-bottom: -100px;
+}
+
+header h1{
+    margin: 0px;
+    background-image: url(/imagens/logo/logo.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 78px;
+    margin-top: 20px;
+}
+
+header h1 span{
+    visibility: hidden;
+}
+
+header nav span ul{
+    list-style-type: none;
+    margin-right: 50px;      
+}
+
+header nav span ul li{
+    display: inline;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+header nav span ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#topo{
+    
+    height: 700px;
+    background-image: url(/imagens/fundoroxo.png);
+    background-size: cover;
+}
+
+
+
+#convite{
+    background-image: url(/imagens/fundo-convite.png);
+    
+}
+
+#conheca .container img{
+    justify-content: center;
+}
