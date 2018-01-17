@@ -28,12 +28,12 @@ header h1 span{
 
 header nav span ul{
     list-style-type: none;
-    margin-right: 50px;      
-}
+}    
 
 header nav span ul li{
     display: inline;
-    margin-right: 50px;
+    margin-right: 100px;
+    margin-top: 80px;
     padding: 20px;
 }
 
@@ -49,7 +49,11 @@ header nav span ul li a{
     background-size: cover;
 }
 
+#topo .txt_topo{
+    margin-top: 0;
+    display: block;
 
+}
 
 #convite{
     background-image: url(/imagens/fundo-convite.png);
