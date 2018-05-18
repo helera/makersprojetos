@@ -139,6 +139,8 @@ section#depoimentos {
     margin-top: 55px;
     border-top: 2px solid #511099;
     display: flex;
+    font-size: 26px;
+    font-weight: 300;
 }
 
 section#depoimentos img{
