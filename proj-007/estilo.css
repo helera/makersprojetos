@@ -131,3 +131,30 @@ section#conheca img{
     height: 397px;
 }
 
+
+
+
+/* seção depoimentos */
+section#depoimentos {
+    margin-top: 55px;
+    border-top: 2px solid #511099;
+    display: flex;
+}
+
+section#depoimentos img{
+    margin-top: 55px;
+    width: 151px;
+    height: 150px;
+    /* alinhando */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* a imagem */
+}
+
+section#depoimentos .txt_depoimento p{
+    text-align: center;
+}
+
+
+
