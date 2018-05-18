@@ -141,6 +141,7 @@ section#depoimentos {
     display: flex;
     font-size: 26px;
     font-weight: 300;
+    background-color: #ebe8fb;
 }
 
 section#depoimentos img{
