@@ -11,6 +11,9 @@ body{
     justify-content: space-between;
 }
 
+
+
+/* seção header */
 header{
     margin-bottom: -90px;
 }
@@ -57,7 +60,6 @@ header nav li a{
 
 
 /* seção topo */
-
 section#topo{
     height: 700px;
     background-image: url(/imagens/fundoroxo.png);
@@ -85,7 +87,7 @@ section#topo .txt_topo p{
     text-align: center;
 }
 
-section#topo .txt_topo h3 {
+section#topo .txt_topo h3{
     margin: 0;
     font-size: 36px;
     font-weight: 300;
@@ -99,7 +101,7 @@ section#topo .txt_topo h3 {
     padding-bottom: 20px;
 }
 
-section#topo .txt_topo h3 a {
+section#topo .txt_topo h3 a{
     text-decoration: none;
     color: #fff;
 }
@@ -108,7 +110,6 @@ section#topo .txt_topo h3 a {
 
 
 /* seção conheça */ 
-
 section#conheca .txt_conheca{
     padding-top: 20px;
     margin-left: 50px;
@@ -139,7 +140,7 @@ section#conheca .txt_conheca h3{
     padding-bottom: 20px;
 }
 
-section#conheca .txt_conheca h3 a {
+section#conheca .txt_conheca h3 a{
     text-decoration: none;
     color: #fff;
 }
@@ -154,7 +155,7 @@ section#conheca img{
 
 
 /* seção depoimentos */
-section#depoimentos {
+section#depoimentos{
     margin-top: 55px;
     border-top: 2px solid #511099;
     display: flex;
@@ -164,7 +165,7 @@ section#depoimentos {
     padding-bottom: 70px;
 }
 
-section#depoimentos img {
+section#depoimentos img{
     margin-top: 55px;
     width: 151px;
     height: 150px;
@@ -175,28 +176,27 @@ section#depoimentos img {
     /* a imagem */
 }
 
-section#depoimentos .txt_depoimento p {
+section#depoimentos .txt_depoimento p{
     text-align: center;
 }
 
 
 /* seção convite */
-
-section#convite {
+section#convite{
     background-image: url(imagens/fundo-convite.png);
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
-section#convite .container {
+section#convite .container{
     /* alinhando as divs*/ 
     flex-direction: column;
     align-items: center;
     /* no container convite */
 }
 
-section#convite .container .divform {
+section#convite .container .divform{
     width: 641px;
     height: 120px;
     background-color: #fff;
@@ -204,15 +204,17 @@ section#convite .container .divform {
     border-radius: 3px;
 }
 
-section#convite .container .divform form input {
+section#convite .container .divform form input{
     width: 70%;
     margin-top: 48px;
     margin-left: 40px;
     font-size: 20px;
     border: none;
+    opacity: .9;
+    background-color: #fff;
 }
 
-section#convite .container .divform form button {
+section#convite .container .divform form button{
     background-image: url(./imagens/botao/botao-convite.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +224,7 @@ section#convite .container .divform form button {
     background-color: #fff;
 }
 
-section#convite .container .divform form button span {
+section#convite .container .divform form button span{
     visibility: hidden;
 }
 
@@ -230,13 +232,12 @@ section#convite .container .divform form button span {
 
 
 /* seção footer */
-
-footer {
+footer{
     background-color: #2a0157;
     border-top: 2px solid #fff;
 }
 
-footer p {
+footer p{
     /* alinhando o texto */
     margin-left: auto;
     margin-right: auto;
@@ -244,4 +245,70 @@ footer p {
     color: #ffffff;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+
+
+/* seção para tratar responsividade */
+
+@media (max-width: 480px){
+    section#topo{
+        background-image: url(imagens/fundoroxo.png);
+        
+    }
+}
+
+@media (max-width: 900px){
+    header nav{
+        display: none;
+    }
+    section#conheca .txt_conheca h2{
+        display: block;
+        margin-right: 40px;
+        margin-left: 30px;
+        
+    }
+       
+    section#depoimentos .txt_depoimento p{
+        text-align: justify;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1100px){
+    header h1{
+        margin-left: 40px;
+    }
+    section#topo .txt_topo h3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    section#conheca img{
+        display: none;
+    }
+    section#conheca .txt_conheca h3{
+        width: 70%;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    section#conheca .txt_conheca p{
+        display: block;
+        margin-right: 30px;
+        margin-left: -20px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1500px){
+    section#topo .txt_topo h2{
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    section#topo .txt_topo p{
+        margin-right: 30px;
+        margin-left: 20px;
+    }
 }
