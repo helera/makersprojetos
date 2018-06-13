@@ -1,21 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     
 }
 
 .container{
+    /* evitando a quebra com max-width */
     max-width: 960px;
+    /* do container ^ */
+    /* centralizando */
     margin: 0 auto;
+    /* container ^ */
+    /* elementos se posicionarem livremente  */
     display: flex;
+    /* de acordo com a formatação dos mesmos ^ */
+    /* espaçamento entre */
     justify-content: space-between;
+    /* os elementos ^ */
 }
 
 
 
+
+/* --------------*/
 /* seção header */
 header{
-    margin-bottom: -90px;
+    /* puxando o header */
+    margin-bottom: -100px;
+    /* para dentro da seção topo, pegando a imagem de fundo ^ */
 }
 
 header h1{
@@ -23,32 +40,49 @@ header h1{
     background-image: url(/imagens/logo/logo.png);
     background-repeat: no-repeat;
     width: 177px;
-    height: 76px;
-    margin-top: 10px;
+    height: 75px;
+    margin-top: 20px;
 }
 
 header h1 span{
+    /* escondendo o texto */
     visibility: hidden;
+    /* para o logo ficar aparente */
 }
 
 header nav ul{
-    list-style-type: none;
-    margin-top: 35px;
+    margin: 0px;
+    /* igualando a margem */
+    margin-top: 20px;
+    /* com o logo ^ */
+    /* ajustando o menu */
     padding-right: 60px;
+    /* de acordo com o proposto */
 }    
 
 header nav li{
-    display: inline;
+    /* tirando o bullet point */
+    list-style: none;
+    /* da lista do menu ^ */
+    /* deixando a lista do menu */
+    display: inline-block;
+    /* inline ^ */
     margin: 0px;
+    /* dando espaçamento entre */
     margin-right: 80px;
+    /* as opções do menu ^ */
     
 }
 
+/* pseudo-classe */
 header nav li:last-child{
     border: 1px solid #fff;
     border-radius: 3px;
+    /* espaçamento interno */
     padding: 10px 30px 10px 30px;
+    /* dos botões do menu ^ */
 }
+/* formatando apenas a última opção do menu ^^ */
 
 header nav li a{
     text-decoration: none;
@@ -59,20 +93,29 @@ header nav li a{
 
 
 
+/* --------------*/
 /* seção topo */
 section#topo{
+    /* altura */
     height: 700px;
+    /* da seção topo ^ */
     background-image: url(/imagens/fundoroxo.png);
+    /* centralizando a imagem */
+    background-image: no-repeat;
     background-size: cover;
-    margin-bottom: 60px;
+    /* redimensionando de acordo com a seção topo ^ */
 }
 
 section#topo .txt_topo{
-    padding-top: 200px;
+    /* espaçamento da div txt_top */
+    margin-top: 200px;
+    /* organizando feito no avocode */
 }
 
 section#topo .txt_topo h2{
+    /* zerando a margem */
     margin: 0;
+    /* que já vem como padrão h2 */
     font-size: 50px;
     color: #fff;
     font-weight: 500;
@@ -101,6 +144,21 @@ section#topo .txt_topo h3{
     padding-bottom: 20px;
 }
 
+/* criar uma classe no html para que ambos botões, da seção topo
+   e da seção conheça, recebam a mesma formatação 
+   .botao {
+       background-color: #ff397e;
+       display: block;
+       padding-top: 20px;
+       padding-bottom 20px;
+       color: #fff;
+       text-decoration: none;
+       box-shadow: 0px 6px 0px 0px #a32751;
+       border-radius: 3px;
+       font-size: 36px;
+   }
+*/
+
 section#topo .txt_topo h3 a{
     text-decoration: none;
     color: #fff;
@@ -109,21 +167,25 @@ section#topo .txt_topo h3 a{
 
 
 
+/* --------------*/
 /* seção conheça */ 
+section#conheca{
+    padding: 70px;
+}
+
 section#conheca .txt_conheca{
-    padding-top: 20px;
-    margin-left: 50px;
+    padding: 70px;
+    padding-top: 30px;
 }
 
 section#conheca .txt_conheca h2{
     font-size: 36px;
-    font-weight: 500;
     font-weight: bold;
 }
 
 section#conheca .txt_conheca p{
     font-size: 24px;
-    font-weight: 300;
+    padding-bottom: 20px;
 }
 
 section#conheca .txt_conheca h3{
@@ -154,34 +216,52 @@ section#conheca img{
 
 
 
+/* --------------*/
 /* seção depoimentos */
-section#depoimentos{
-    margin-top: 55px;
+section#depoimento{
     border-top: 2px solid #511099;
-    display: flex;
-    font-size: 26px;
-    font-weight: 300;
     background-color: #ebe8fb;
-    padding-bottom: 70px;
 }
 
-section#depoimentos img{
-    margin-top: 55px;
-    width: 151px;
-    height: 150px;
-    /* alinhando */
+section#depoimento .container{
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+} 
+
+section#depoimento img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* a imagem */
+    width: 151px;
+    height: 150px;
 }
 
-section#depoimentos .txt_depoimento p{
+section#depoimento .txt_depoimento p{
+    margin-top: 20px;
+    font-size: 26px;
     text-align: center;
+   
 }
 
 
-/* seção convite */
+
+
+/* --------------*/
+/* seção convite feita pelo Harley
+
+Por não ter utilizado div para criação da caixa, 
+necessitamos formatar o form
+section#convite form{
+    background-color: ;
+    padding: 10px;
+    width: 70%;
+}
+
+*/
+
+
 section#convite{
     background-image: url(imagens/fundo-convite.png);
     background-size: cover;
@@ -197,7 +277,7 @@ section#convite .container{
 }
 
 section#convite .container .divform{
-    width: 641px;
+    width: 70%;
     height: 120px;
     background-color: #fff;
     opacity: .9;
@@ -231,6 +311,7 @@ section#convite .container .divform form button span{
 
 
 
+/* --------------*/
 /* seção footer */
 footer{
     background-color: #2a0157;
@@ -249,66 +330,31 @@ footer p{
 
 
 
+
+/* --------------*/
 /* seção para tratar responsividade */
-
-@media (max-width: 480px){
-    section#topo{
-        background-image: url(imagens/fundoroxo.png);
-        
-    }
-}
-
-@media (max-width: 900px){
+@media (max-width: 600px){
     header nav{
         display: none;
+    }
+    header h1{
+        margin-left: 30px;
     }
     section#conheca .txt_conheca h2{
         display: block;
         margin-right: 40px;
         margin-left: 30px;
         
-    }
-       
+    }   
     section#depoimentos .txt_depoimento p{
         text-align: justify;
         margin-right: 30px;
         margin-left: 30px;
     }
-}
-
-@media (max-width: 1100px){
-    header h1{
-        margin-left: 40px;
+    section#convite .container .divform form{
     }
-    section#topo .txt_topo h3{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    section#conheca img{
+    section#convite .container .divform form button{
         display: none;
     }
-    section#conheca .txt_conheca h3{
-        width: 70%;
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-
-    section#conheca .txt_conheca p{
-        display: block;
-        margin-right: 30px;
-        margin-left: -20px;
-        text-align: justify;
-    }
 }
 
-@media (max-width: 1500px){
-    section#topo .txt_topo h2{
-        text-align: center;
-        margin-right: 30px;
-        margin-left: 20px;
-    }
-    section#topo .txt_topo p{
-        margin-right: 30px;
-        margin-left: 20px;
-    }
-}
