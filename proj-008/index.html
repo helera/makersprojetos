@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,26 +14,113 @@
 <body>
 
     <header id="cabecalho">
-        <div class="logonucliot">
-            <h1>
-                <span>Nucliot</span>
-            </h1>
-        </div>
+            
+            <div class="logonucliot">
+                <h1>
+                    <span>Nucliot</span>
+                </h1>
+            </div>
+            <img src="img/td.png">
+        
     </header>
 
     <div class="container">
-        <div id="conteudo">Conteudo</div>
-        <div id="conteudo2">Conteudo 2</div>
+        
+        <div id="conteudo">
+            <nav>
+                <ul>
+                    <li><a href="#">ACCOUNT</a></li>
+                    <li><a href="#">BILLING</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="conteudo2">
+            
+            <h1>Personal information</h1>
+            
+            <form class="email">
+                <div class="checked">
+                    <input type="email" placeholder="E-mail"><img src="img/checked.png">
+                </div>    
+            </form>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nisl eget nunc molestie maximus.</p>
+
+            <form class="dados">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+                <input type="text" placeholder="País">
+                <div class="checked">
+                    <input type="text" placeholder="Telefone"><img src="img/checked.png">
+                </div>
+            </form>
+            
+            <h1>Password</h1>
+            
+            <form class="password">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="New password">
+                <input type="password" placeholder="New password again">
+            </form>
+            
+            <h1>Anythings</h1>
+            
+            <form>    
+                <ul class="box">  <!-- atraves de uma lista, consegui colocar checkbox um abaixo do outro -->
+                        <li>
+                            <div>
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1">Güncelleme ve yenilikleri mail olarak almak istiyorum.</label>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox2">
+                            <label for="checkbox2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nisl eget nunc molestie maximus.</label>
+                        </li>
+                </ul>
+                    <button type="submit">SAVE</button>
+            </form>
+
+        </div>
     </div>
 
     <aside>
         <nav>
             <ul>
-                <li><img src="img/cifrão.png" class="menuimg">  Balance</li>
-                <li><img src="img/grafic.png" class="menuimg">Dashboard</li>
-                <li><img src="img/signal---fontawesome.png" class="menuimg">Base Stations</li>
-                <li><img src="img/cubes---fontawesome.png" class="menuimg">My Projects</li>
-                <li><img src="img/settings.png" class="menuimg">Settings</li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-dollar-sign"></i> <!-- font-awesome -->
+                        <span>Balance</span> <!-- dica Harlley -->
+                        <small>$ 322</small> <!-- separando a formatação Balance e $ 322 -->
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-chart-area"></i>
+                        <span>Dashboard</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-signal"></i>
+                        <span>Base Stations</span> 
+                        <small>12</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-cubes"></i>
+                        <span>My Projects</span> 
+                        <small>4</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-cog"></i>
+                        <span>Settings</span> 
+                    </a>
+                </li>
             </ul>
         </nav>
     </aside>
