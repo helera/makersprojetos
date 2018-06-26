@@ -132,7 +132,7 @@ aside li small{
 
 #conteudo li a:hover{
     color: #ffb946;
-    box-shadow: 0px -30px 0px #ffba44 inset; /* borda interna do hover */
+    box-shadow: 0px -3px 0px #ffba44 inset; /* borda interna do hover */
     cursor: pointer;   
 }
 
