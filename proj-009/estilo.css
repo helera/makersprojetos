@@ -1,0 +1,43 @@
+* {
+    margin: 0; padding: 0;
+}
+
+html{ /* porque tem que alinhar no html, não sei, mas dá certo */
+    height: 100%; /* altura 100% para conseguirmos alinhar verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(img/paginaDeTras.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color:#ffffff;
+    width: 680px;
+    height: 550px;
+}
+
+header{
+    background-color: red;
+    height: 40px;
+}
+
+section#principal{
+    display: flex;
+}
+
+section#principal .cartao{
+    background-color: blue;
+    width: 381px;
+    height: 508px;
+}
+
+section#principal .carrinho{
+    background-color: green;
+    width: 299px;
+    height: 508px;
+}
