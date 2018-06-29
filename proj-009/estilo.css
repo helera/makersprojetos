@@ -2,32 +2,65 @@
     margin: 0; padding: 0;
 }
 
-html{ /* porque tem que alinhar no html, não sei, mas dá certo */
+html { /* porque tem que alinhar no html, não sei, mas dá certo */
     height: 100%; /* altura 100% para conseguirmos alinhar verticalmente */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-body{
+
+
+
+
+/* importando a font-family multi */
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli-regular-webfont.woff2') format('woff2'),
+         url('fonts/muli-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliextrabold';
+    src: url('fonts/muli-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/muli-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body {
     background-image: url(img/paginaDeTras.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'muliregular';
 }
 
-.container{
+.container {
     background-color:#ffffff;
     width: 680px;
     height: 550px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
 }
 
-header{
+
+
+
+
+
+header {
     background-color: #ffffff;
     height: 40px;
     display: flex;
+    justify-content: space-between;
 }
 
-header h1{
+header h1 {
     margin: 0; padding: 0;
     font-size: 18px;
     line-height: 40px;
@@ -37,28 +70,83 @@ header h1{
 
 }
 
-header p{
+header p {
     font-size: 12px;
+    color: #5e5f5f;
     line-height: 40px;
-    margin-left: 10px;
+    margin-right: 240px;
+    opacity: 0.7;
+}
+
+header p em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+header img {
+    width: 17px;
+    height: 17px;
+    margin: 10px 15px;
+    
 }
 
 
 
 
 
-section#principal{
+section#principal {
     display: flex;
 }
 
-section#principal .cartao{
-    background-color: blue;
+
+
+
+
+section#principal .cartao {
+    background-color: #ffffff;
     width: 381px;
     height: 508px;
+    border: 1px solid #dddcde;
 }
 
-section#principal .carrinho{
-    background-color: green;
+.cartao fieldset {
+    border: none;
+}
+
+.cartao fieldset legend {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #777879;
+    font-size: 16px;
+}
+
+.cartao ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartao li {
+    width: 109px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao figure .legenda {
+    color: #777879;
+    font-size: 11px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+
+
+section#principal .carrinho {
+    background-color: #ebebeb;
+    border: 1px solid #dddcde;
     width: 299px;
     height: 508px;
 }
