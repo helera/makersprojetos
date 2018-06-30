@@ -48,10 +48,17 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
 }
 
+.linha {
+    color: rgba(151, 151, 151, 0.2);
+    background-color: rgba(151, 151, 151, 0.2);
+    width: 354px;
+}
 
 
 
 
+
+/* Área de estilo da seção header */
 
 header {
     background-color: #ffffff;
@@ -102,11 +109,12 @@ section#principal {
 
 
 
+/* Área de estilo da seção dos cartoes anteriores */
 section#principal .cartao {
     background-color: #ffffff;
     width: 381px;
     height: 508px;
-    border: 1px solid #dddcde;
+    border-top: 1px solid #dddcde;
 }
 
 .cartao fieldset {
@@ -120,13 +128,13 @@ section#principal .cartao {
     font-size: 16px;
 }
 
-.cartao ul {
+.cartao .tiposcartao {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.cartao li {
+.cartao .alinhandocartao {
     width: 109px;
     height: 96px;
     display: flex;
@@ -140,6 +148,49 @@ section#principal .cartao {
     opacity: 0.7;
     text-align: center;
 }
+
+
+
+
+
+/* Área de estilo da seção do cartao novo */
+.dadoscartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao input {
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    width: 258px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #c4cbd0;
+}
+
+.cartao .camposduplo {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 258px;    
+}
+
+.cartao .camposduplo .campo1 {
+    width: 137px;
+    margin-right: 25px;
+}
+
+.cartao .camposduplo .campo2 {
+    width: 84px;
+}
+
 
 
 
