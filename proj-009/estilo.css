@@ -117,6 +117,13 @@ section#principal .cartao {
     border-top: 1px solid #dddcde;
 }
 
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+
 .cartao fieldset {
     border: none;
 }
@@ -191,13 +198,112 @@ section#principal .cartao {
     width: 84px;
 }
 
+/* Área de estilo da seção checkbox */
+.addcart {
+    display: flex;  /* alinhamento dos itens checkbox */
+    justify-content: center;
+    align-items: center;
+}
+
+.addcart .centro {
+    width: 270px;   
+}
+
+.addcart .centro input {
+    width: 10px;
+    height: 10px;
+    /*margin-bottom: 26px;*/
+    margin-right: 5px
+}
+
+.addcart .centro label {
+    color: #777879;
+    font-size: 14px;
+}
+
+/* Área de estilo botao */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+button {    
+    width: 289px;
+    height: 44px;
+    background-color: #8bd638;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
 
 
 
 
-section#principal .carrinho {
+
+
+
+
+
+
+
+
+
+section#principal .cart {
     background-color: #ebebeb;
     border: 1px solid #dddcde;
     width: 299px;
     height: 508px;
+
+}
+
+.cart .flexitens {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.cart .agroupdescription {
+    margin-left: 10px;
+}
+
+.cart .agroupdescription ul {
+    list-style: none;
+}
+
+.cart .agroupdescription .descrip1 {
+    width: 215px;
+}
+
+.cart .agroupdescription .descrip1 span {
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart .agroupdescription .descrip1 small {
+    float: right;
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart .agroupdescription .descrip2 {
+    color: #4a4a4a;
+    font-size: 10px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.cart .agroupdescription .descrip3 {
+    color: #9c9c9c;
+    font-size: 10px;
+    font-weight: 700; 
+}
+
+.cart .agroupdescription .descrip3 span {
+    font-weight: 400;
 }
