@@ -212,7 +212,6 @@ section#principal .cartao {
 .addcart .centro input {
     width: 10px;
     height: 10px;
-    /*margin-bottom: 26px;*/
     margin-right: 5px
 }
 
@@ -258,6 +257,16 @@ section#principal .cart {
     width: 299px;
     height: 508px;
 
+}
+
+.cart .linha {  /* linha que separa os itens do cart */
+    margin-top: 10px;
+    width: 279px;
+    margin-left: 8px;
+}
+
+.cart .flexitensbox {  /* dar margem top a todos os itens do cart */
+    margin-top: 30px;
 }
 
 .cart .flexitens {
@@ -306,4 +315,40 @@ section#principal .cart {
 
 .cart .agroupdescription .descrip3 span {
     font-weight: 400;
+}
+
+
+/* Área de estilo do total da compra */
+.cart .total {
+    margin-top: 100px;
+    margin-left: 13px;
+}
+
+.cart .total ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.cart .total li {
+    width: 273px;
+}
+
+.cart .total small {
+    float: right;
+}
+
+.cart .total .subtotalbill {
+    color: #777879;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cart .total .totalbill {
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart .total .linha {
+    margin-bottom: 10px;
 }
