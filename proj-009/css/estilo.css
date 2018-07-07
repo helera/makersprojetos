@@ -1,0 +1,35 @@
+@import url(header.css);
+@import url(cartao.css);
+@import url(cart.css);
+
+* {
+    margin: 0; padding: 0;
+}
+
+html { /* porque tem que alinhar no html, não sei, mas dá certo */
+    height: 100%; /* altura 100% para conseguirmos alinhar verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+}
+
+.container {
+    background-color:#ffffff;
+    width: 680px;
+    height: 550px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
+}
+
+.linha {
+    color: rgba(151, 151, 151, 0.2);
+    background-color: rgba(151, 151, 151, 0.2);
+    width: 354px;
+}
+
+section#principal {
+    display: flex;
+}

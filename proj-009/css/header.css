@@ -1,0 +1,36 @@
+header {
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0; padding: 0;
+    font-size: 18px;
+    line-height: 40px;
+    color: #5e5f5f;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+header p {
+    font-size: 12px;
+    color: #5e5f5f;
+    line-height: 40px;
+    margin-right: 240px;
+    opacity: 0.7;
+}
+
+header p em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+header img {
+    width: 17px;
+    height: 17px;
+    margin: 10px 15px;
+    
+}
