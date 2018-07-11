@@ -70,7 +70,7 @@
 /* Área de estilo do total da compra */
 .cart .total {
     margin-top: 100px;
-    margin-left: 13px;
+    padding-left: 13px;
 }
 
 .cart .total ul {
@@ -100,4 +100,5 @@
 
 .cart .total .linha {
     margin-bottom: 10px;
+    margin-left: -5px;
 }
