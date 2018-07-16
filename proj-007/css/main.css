@@ -1,0 +1,30 @@
+@import url(header.css);
+@import url(topo.css);
+@import url(conheca.css);
+@import url(depoimentos.css);
+@import url(convite.css);
+@import url(footer.css);
+
+* {
+    margin: 0;padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;  /* centralizando o container */
+}
+
+.botao {
+    background-color: #ff3d7f;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    text-align: center;
+}

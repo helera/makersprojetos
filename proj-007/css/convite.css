@@ -1,0 +1,40 @@
+#convite {
+    background-image: url(../img/fundo-convite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#convite .container {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+}
+
+.form-convite {
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 40px;
+    width: 55%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-convite input {
+    border: none;
+    background-color: transparent;
+    width: 440px;
+    font-size: 16px;
+}
+
+.form-convite button {
+    width: 89px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/letter-button.png);
+    background-repeat: no-repeat;
+}
+
+.form-convite span {
+    visibility: hidden;
+}

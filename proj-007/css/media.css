@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+    /* responsividade */
+    header .container{
+        padding: 10px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .container { /* largura a tudo que está dentro do container centralizando ao centro */
+        width: 90%;
+        text-align: center;
+    }
+
+    #topo .topo-container {
+        padding: 10px;
+        padding-top: 225px;
+    }
+
+    #conheca {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #conheca .conheca-container {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    #conheca img {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        padding: 40px 0px;
+    }
+
+    #conheca .conheca-container h2 {
+        margin: 0 auto;
+    }
+
+    #depoimentos {
+        padding: 10px;
+    }
+
+    #convite .form-convite {
+        display: block; /* colocar em coluna o placeholder e o botao */
+        text-align: center;
+    }
+
+    #convite .form-convite input {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+
+}

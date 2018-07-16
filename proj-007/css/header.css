@@ -1,0 +1,38 @@
+header .container {
+    height: 90px;
+}
+
+header h1 {
+    background-image: url(../img/logotitum.png);
+    background-repeat: no-repeat;
+    width: 183px;
+    height: 80px;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header ul {
+    display: flex;
+    margin-right: 100px;  /* espaçamento do menu superior do lado direito */
+    align-items: center;
+}
+
+header li {
+    margin-right: 80px; /* espaçamento entre os itens do menu superior */
+}
+
+header li:last-child {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin-left: -30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}

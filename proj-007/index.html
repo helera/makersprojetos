@@ -1,102 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Projeto 007</title>
 </head>
+<body> 
+        
 
-<body>
-    <header>
-        <div class="container">
-            <h1>
-                <span>Titum</span>
-            </h1>
-            <nav>
-                <span>
+        <!-- inicio /header -->
+        <header>
+            <div class="container">
+                <h1><span>Titum</span></h1>
+                <nav>
                     <ul>
-                        <li>
-                            <a href="#conheca">Conheça</a>
-                        </li>
-                        <li>
-                            <a href="#depoimento">Depoimentos</a>
-                        </li>
-                        <li>
-                            <a href="#convite">Convite</a>
-                        </li>
+                        <li><a href="#conheca">Conheça</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#convite">Convite</a></li>
                     </ul>
-                    <span>
-            </nav>
-        </div>
-    </header>
-
-    <section id="topo">
-        <div class="container">
-            <div class="txt_topo">
-                <h2>Conheça Titum</h2>
-                <p>A nova moda do momento.</p>
-                <h3>
-                    <a href="#conheca">Saiba mais</a>
-                </h3>
+                </nav>
             </div>
-        </div>
-    </section>
+        </header> <!-- fim header -->
+        
+        <!-- inicio topo -->  
+        <section id="topo">
+            <div class="container">          
+                <div class="topo-container">
+                    <h1>Conheça Titum</h1>
+                    <p>A nova moda do momento.</p>
+                    <h2  class="botao"><a href="#conheca">Saiba mais</a></h2>
+                </div>
+            </div>            
+        </section> <!-- fim /topo -->
+        
+        <!-- inicio conheca -->
+        <section id="conheca">
+            <img src="img/fashion-teen-girl.png" alt="">
+            <div class="conheca-container">
+                <h1>Afinal, o que é o Titum?</h1>
+                <p>Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.</p>
+                <h2 class="botao"><a href="#convite">Quero Titum</a></h2>
+            </div>
+        </section> <!-- fim /conheca -->
 
-
-    <section id="conheca">
-        <div class="container">
-            <img src="imagens\fashion-teen-girl.png" alt="">
-            <div class="txt_conheca">
-                <h2>Afinal, o que é o Titum?</h2>
-                <p>Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestigio mundial.
-                    Titum começou a fazer parte da cultura POP.
+        <!-- inicio depoimentos -->
+        <section id="depoimentos">
+            <div class="container">
+                <img src="img/woman-headphone.png">
+                <p class="text-depoimentos">“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje”
+                <br />
+                    <span>Cláudia Santos</span>
                 </p>
-                <h3>
-                    <a href="#convite">Quero Titum</a>
-                </h3>
-            </div>
-        </div>
-    </section>
+            </div>        
+        </section> <!-- fim /depoimentos -->
 
-    <section id="depoimento">
-        <div class="container">
-            <div class="txt_depoimento">
-                <img src="imagens\mulher-headphone.png">
-                <p>“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum
-                    até hoje”
-                    <br />
-                    <strong>Cláudia Santos</strong>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="convite">
-
-        <div class="container">
-            <div class="divform"> <!-- Harley não utilizou div, ele fez a caixa direto do form-->
-                <form action="">
+        <!-- inicio convite -->
+        <section id="convite">
+            <div class="container">
+                <form class="form-convite">
                     <input type="email" placeholder="Receba um convite no email informado aqui">
-                    <button>
-                        <span>Submit</span>
-                    </button>
+                    <button><span>Button</span></button>
                 </form>
             </div>
-        </div>
+        </section> <!-- fim /convite -->
 
-    </section>
-
-    <footer>
-        <div class="container">
+        <footer>
             <p>© 2016 Titum - Todos os direitos reservados.</p>
-        </div>
-    </footer>
+        </footer>
 
 </body>
-
 </html>

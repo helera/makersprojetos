@@ -1,0 +1,40 @@
+#conheca {
+    display: flex;
+    padding: 80px 250px;
+    border-bottom: 3px solid #511099;
+}
+
+#conheca img {
+    width: 380px;
+    height: 397px;
+}
+
+#conheca .conheca-container {
+    padding: 40px 0px 0px 100px;
+}
+
+#conheca .conheca-container h1 {
+    margin: 0;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#conheca .conheca-container p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0px 40px 0px;
+}
+
+#conheca .conheca-container h2 {
+    width: 240px;
+    padding: 20px 0px;
+}
+
+#conheca .conheca-container a {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
