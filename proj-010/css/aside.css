@@ -1,0 +1,74 @@
+aside {
+    background-color: #3a3c40;
+    height: 1240px;
+    text-align: center;
+}
+
+
+
+
+
+/* card pessoal */
+aside img {
+    width: 180px;
+    height: 200px;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+
+aside .name {
+    color: #f5a623;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+aside .interest {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+aside a { 
+    background-color: #f6a623 !important;
+    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6) !important;
+    color: #ffffff !important;
+    margin: 10px;
+}
+
+
+
+
+
+/* logos redes sociais */
+aside span i {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* progressão de conhecimentos */
+aside .progression {
+    margin: 40px 40px 0px 40px;
+}
+
+aside .knowledge {
+    margin-bottom: 20px;
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+aside .knowledge-item {
+    color: #8fa4af;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
