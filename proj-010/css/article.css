@@ -35,6 +35,11 @@ article .about .container-experience {
 article .about .tile {
     padding-left: 0;
     padding-bottom: 45px;
+    
+}
+
+article .about ul {
+    padding-right: 70px;
 }
 
 article .about .tile .item1 {
