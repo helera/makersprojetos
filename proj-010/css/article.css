@@ -1,4 +1,56 @@
 article {
     background-color: #ffffff;
     height: 1212px;
+    
+}
+
+article .container-about {
+    margin: 40px 50px;
+}
+
+article .about span {
+    display: flex;
+    color: #d0021b;
+    font-size: 18px;
+    border-bottom: 1px solid #d0011b;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+
+article .about .title-about {
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+article .about .text-about {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+article .about .container-experience {
+    display: flex;
+}
+
+article .about .tile {
+    padding-left: 0;
+    padding-bottom: 45px;
+}
+
+article .about .tile .item1 {
+    color: #3a3c40;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+article .about .tile .item2 {
+    color: #3a3c40;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+article .about .tile .item3 {
+    color: #3a3c40;
+    font-size: 15px;
+    font-weight: 300;
 }
